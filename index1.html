@@ -6,39 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        html, body { padding: 0; margin: 0; }
         body {
-            font-family: sans-serif;            
+            font-family: sans-serif; 
+            border-spacing: 0px;           
         }
 
         .main_table{
             width:100%;
             margin: auto;
             background-color: black;
+            border-collapse: separate;
+            border-spacing: 0px;
 
         }
         .main-table850{
+            
             padding-top: 50px;
             width: 850px;
             margin: auto;
             height: 60px;
             width: 850px;
+            
         }
         table {
-            border-spacing:1PX;
-            border-collapse:separate;
-            position:relative;
+            border: 2px;
+            border-collapse: separate;
+            border-spacing: 0px 0px;
             margin: auto;
+            padding: 0
         }
 
         .smallbar{
             background-color: #f0d128;
             height: 90px;
             width: 850px;
+            padding-right:60px;
             
         }
         .smallbar td{
-            position: relative;
-            right: 50px;
+            
             padding-left: 110px;
         }
 
@@ -46,17 +53,17 @@
             background-color: #292929;
             height: 60px;
             width: 850px;
-            padding-right: 0px;
+            padding-right: 80px;
         }
 
         .navigation a{
             color: white;
             text-decoration: none;
+            padding-left: 40px;
         }
         .navigation td{
-            position: relative;
-            right: 50px;
-            padding-left: 100px;
+            
+            padding-left: 60px;
         }
 
         .blackfriday{
@@ -66,17 +73,19 @@
         }
         
         .discountcream{
-            height: 360px;
+            height: 425px;
             width: 850px;
             background-color: #292929; 
         }
         .newcream{
-            height: 360px;
+            height: 425px;
             width: 850px;
             background-color: #f0d128;
         }
         .cosmeticbundle{
-            height: 360px;
+            border-spacing: 0px;
+            border-collapse: collapse;
+            height: 425px;
             width: 850px;
             background-color: #292929;  
         }
@@ -108,6 +117,8 @@
         .cream{
             height: 425px;
             width: 425px;
+            border-spacing: 0px;
+
         }
         .unsub{
             text-decoration: none;
@@ -117,6 +128,155 @@
             width: 425px;
             height: 425px;
         }
+        .moredisc{
+            position: relative;
+            font-size: 30px;
+            padding-left: 200px;
+            font-weight: bold;
+        }
+        .getmoredisc{
+            font-size: 25px;
+            padding-left: 300px;
+            text-decoration: none;
+            color: red;
+        }
+        .logo{
+            font-size: 20px;
+        }
+        .gettext1{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+        }
+        .gettext2{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+            color: white;
+        }
+        .gettext3{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+        }
+        .gettext4{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+            color: white
+        }
+        .crossed50{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+            text-decoration: line-through;
+        }
+        .crossed300{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+            text-decoration: line-through;
+            color: white;
+        }
+        .big20{
+            text-align: center;
+            font-size: 70px;
+            font-weight: bold;
+        }
+        .big10{
+            text-align: center;
+            font-size: 70px;
+            font-weight: bold;
+            color: white;
+        }
+        .big25{
+            text-align: center;
+            font-size: 70px;
+            font-weight: bold;
+        }
+        .big125{
+            text-align: center;
+            font-size: 70px;
+            font-weight: bold;
+            color: white;
+        }
+        .allstuf1{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+        }
+        .newline{
+            text-align: center;
+            vertical-align: text-top;
+            font-size: 30px;
+            color: white;
+        }
+        .getDicsount1{
+            padding-left: 100px;
+            vertical-align: text-top;
+            font-size: 30px;
+            text-decoration: none;
+            color: red;
+        }
+        .getDicsount2{
+            padding-left: 100px;
+            vertical-align: text-top;
+            font-size: 30px;
+            text-decoration: none;
+            color: #f0d128; 
+        }
+        .buy1{
+            padding-left: 170px;
+            vertical-align: text-top;
+            font-size: 30px;
+            text-decoration: none;
+            color:red; 
+        }
+        .buy2{
+            padding-left: 170px;
+            vertical-align: text-top;
+            font-size: 30px;
+            text-decoration: none;
+            color:#f0d128; 
+        }
+        .blackfriday td{
+
+            width: 425px;
+        }
+        .discountcream td{
+            width: 425px;
+        }
+        .newcream td{
+            width: 425px;
+        }
+        .blackfriday td{
+            width: 425px;
+        }
+        .cosmeticbundle td{
+            width: 425px;
+            height: 425px
+        }
+        td{
+            padding: 0;
+            border-collapse: separate;
+            border-spacing: 0px;
+        }
+        tr{
+            padding: 0;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+        .mainpage{
+            text-decoration: none;
+            color: black; 
+        }
+        .myaccount{
+            text-decoration: none;
+            color: black; 
+        }
+        
+        
+
 
 
 
@@ -178,7 +338,7 @@
                         
 
                     </td>
-                </tr>
+                </tr> 
             </table>
             <table class="blackfriday">
                 <tr>
@@ -209,11 +369,11 @@
             </table>
             <table class="newcream">
                 <tr>
-                    <td>
+                    <td class="newcream1">
                         <img class="cream" src="https://psv4.userapi.com/c534536/u202362751/docs/d32/d63f9c507487/dd19f8529f0b26ffd68ef5fc0d7aa214.jpg?extra=v4Aw_xO85ziXKap0_W_XEvZ3KwXyTA6GNBkU8eeU2nowZnNxEjsNBKqVGcNhsY7DzMNKCgjii5hQJzSjFw9msu1BVTvo-HazZySfy8JFtlyURPFfOvVDehbonfaZ1-322WG18z3Id3qHMYfzV1Bu4spV" alt="newcream">
                     </td>
                     <td>
-                        <p class="gettext3">Новый урем всего за</p>
+                        <p class="gettext3">Новый крем всего за</p>
                         <p class="crossed50">50 руб</p>
                         <p class="big25">25 руб</p>
                         <a class="buy1" href="#">Купить</a>
@@ -226,7 +386,7 @@
                         <img class="cbundle" src="https://psv4.userapi.com/c237031/u202362751/docs/d32/8a241e542fff/document.jpg?extra=g_8yY0NI9hEP2ESQi203WVTCYbJdLynh6igYw27xBKR2OQJ7v_34L5mb4rKs55Ls2N4d8g7baZE06QdgXulZrt1mWRPI7IPzt8MLMsJJ_8FbyRMEhNZVBHJHqL_ffIkTWGxF3SOW0hd2BRAWS7t_s0eY" alt="cosmetic">
                     </td>
                     <td>
-                        <p class="gettext4">Новый урем всего за</p>
+                        <p class="gettext4">Косметический набор</p>
                         <p class="crossed300">300 руб</p>
                         <p class="big125">125 руб</p>
                         <a class="buy2" href="#">Купить</a>
